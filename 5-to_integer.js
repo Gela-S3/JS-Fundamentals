@@ -1,13 +1,10 @@
 let process = require('process')
 
-let num1= process.argv[2]
+let num1= parseInt(process.argv[2])
 
-if(process.argv[2] == undefined){
+if(Number.isNaN(num1)){
     console.log('Not a number')
 } 
-else if(isNaN(process.argv[2])){
-    console.log('Not a number')
-}
 else{
-    console.log(`My number is: ${parseInt(process.argv[2])}`)
+    console.log(`My number is: ${num1}`)
 }
