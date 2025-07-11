@@ -6,7 +6,18 @@ if(Number.isNaN(num1)){
     console.log('Not a number')
 } 
 else{
-    console.log(`My number is: ${num1}`)
+    console.log(`My number: ${num1}`)
 }
-
-let arr = ['book', 'pen',]
+// if(process.argv[2]){
+//     let value = Number(process.argv[2]);
+//     if (Number.isInteger(value)){
+//         console.log("HElal");
+//     } else if(Number.parseInt(value)){
+//         console.log(`My`);
+//     }
+//     else{
+//         console.log("Not a number");
+//     }
+// }else{
+//     console.log('Not a number')
+// }
