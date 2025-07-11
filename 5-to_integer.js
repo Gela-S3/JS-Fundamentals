@@ -8,3 +8,5 @@ if(Number.isNaN(num1)){
 else{
     console.log(`My number is: ${num1}`)
 }
+
+let arr = ['book', 'pen',]
