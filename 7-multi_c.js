@@ -1,9 +1,8 @@
-let process = require('process')
-let value = parseInt(process.argv[2])
-if(Number.isNaN(value)){
-    console.log('Missing number of occurrences')
-}else{
-    for(let i = 0; i < value; i++){
-        console.log(`C is fun`)
-    }
-}
+const x = parseInt(process.argv[2]);
+
+if (isNaN(x)) {
+  console.log('Missing number of occurrences');
+} else if (x > 0) {
+  for (let i = 0; i < x; i++) {
+    console.log('C is fun');
+  }
